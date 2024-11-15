@@ -41,7 +41,7 @@ Program main.py pobiera treść artykułu, wysyła ją do API OpenAI w celu prze
 
 ## Uwagi
 
-- Klucz został dodany na potrzeby procesu oceny zadania. Niestety z uwagi na bezpieczeństwo OpenAi automatycznie wyłączyło klucz. Mam świadomość, że nie jest to dobra praktyka, ale klucz miał ustawione limity. W takiej sytuacji należy wstawić własny klucz API w miejsce 'KLUCZ' w pliku 'main.py'. W normalnych warunkach, kod odnosiłby się do pliku '.env'.
+- Klucz był wcześniej dodany na potrzeby procesu, ale z uwagi na bezpieczeństwo, OpenAi automatycznie wyłączyło klucz. Mam świadomość, że udostępnianie własnego klucza nie jest dobrą praktyką. Z uwagi na to należy wstawić własny klucz API w miejsce 'KLUCZ' w pliku 'main.py'. W normalnych warunkach, kod odnosiłby się do pliku '.env'.
 
 
 
@@ -87,4 +87,4 @@ The main.py program takes the content of an article, sends it to the OpenAI API 
 
 ## Notes
 
-- The key was added for the purpose of evaluating the task. Unfortunately, due to security reasons, OpenAI automatically disabled the key. I am aware that this is not a best practice, but the key had set limits. In this situation, you should insert your own API key in place of 'KEY' in the 'main.py' file. Under normal circumstances, the code would refer to the '.env' file.
+- The key was previously added for the purpose of the process, but due to security reasons, OpenAI has automatically disabled the key. I am aware that sharing one's own key is not a good practice. Therefore, a personal API key should be inserted in place of 'KEY' in the 'main.py' file. Under normal circumstances, the code would refer to the '.env' file.
