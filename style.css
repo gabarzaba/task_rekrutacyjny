@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .header {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    font-size: 7vw;
+    background-color: #bad1d7;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .paragraph {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #bad1d7;
+    border-radius: 5px;
+    font-weight: bold;
+  }
